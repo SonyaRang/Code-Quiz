@@ -11,3 +11,5 @@ WHEN the game is over
 THEN I can save my initials and score
 
 https://sonyarang.github.io/Code-Quiz/
+
+![2021-04-18](https://user-images.githubusercontent.com/80353743/115165541-f1012780-a073-11eb-8632-0c893f188a6a.png)
