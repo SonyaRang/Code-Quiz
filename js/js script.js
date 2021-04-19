@@ -69,7 +69,20 @@ function beginTimer(){
 
 // start quiz on click
 function startTimedQuiz() {
-  var instructions = document.getElementById('quizPrompt');
+  var instructions = document.getElementById('Prompt');
   instructions.remove();
   displayQuestions();
 };
+
+//display questions
+function displayQuestions() 
+{
+var quizQuestions = document.createElement('div');
+quizQuestions.className= "questionCSS";
+quizQuestions.textContent= quizQuestions[loopQuestions].question
+var Houseq = document.getElementById('Houseq');
+Houseq.innerHTML = '';
+Houseq.appendChild(quizQuestions);
+
+
+}
